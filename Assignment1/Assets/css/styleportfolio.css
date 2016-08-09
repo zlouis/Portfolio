@@ -398,3 +398,32 @@ Main content border color: #dddddd
   left:0;
   z-index: 2;
 }
+
+    @media screen and (max-width: 980px) {
+
+		body {
+			background-color: #333;
+		}
+
+		.wrapper {
+		width: 600px;
+		}
+	}
+
+	@media screen and (max-width: 768px) {
+
+		body {
+			background-color:#333;
+
+		}
+
+	}
+
+	@media screen and (max-width: 640px) {
+
+		body {
+			background-color:#333;
+
+		}
+
+	}
