@@ -319,10 +319,7 @@ Main content border color: #dddddd
 
     @media screen and (max-width: 980px) {
 
-		body {
-			background-color: #333;
-		}
-
+	
 		.wrapper {
 		width: 600px;
 		}
@@ -330,8 +327,7 @@ Main content border color: #dddddd
 
 	@media screen and (max-width: 768px) {
 
-		body {
-			background-color:#333;
+	
 
 		}
 
@@ -339,8 +335,7 @@ Main content border color: #dddddd
 
 	@media screen and (max-width: 640px) {
 
-		body {
-			background-color:#333;
+	
 
 		}
 
