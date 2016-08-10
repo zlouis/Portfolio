@@ -320,8 +320,8 @@ Main content border color: #dddddd
     @media screen and (max-width: 980px) {
 
 	
-		.wrapper {
-		width: 600px;
+		body {
+		width: 1080px;
 		}
 	}
 
@@ -329,11 +329,17 @@ Main content border color: #dddddd
 
 	
 
+		body {
+		width: 720px;
 		}
+		
 
 	}
 
 	@media screen and (max-width: 640px) {
+		body {
+		width:600px;
+		}
 
 	
 
