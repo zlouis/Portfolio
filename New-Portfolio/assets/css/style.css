@@ -1,0 +1,152 @@
+.jumbotron{
+  background-image: url("../images/maine-acadia.JPG");
+  height:850px;
+  padding:10% 0;
+  color:#fff;
+  margin:0;
+}
+
+.jumbotron2{
+	background-image: url("../images/maine-acadia.JPG");
+  height:350px;
+  padding:10% 0;
+  color:#fff;
+  margin:0;
+  margin-top:5em	;
+
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+
+
+
+/******ABOUT ME HEADER*******/
+
+.about-header{
+  border-bottom: 1px solid #506A85;
+  text-align: center;
+  height:4em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+.aboutme-header{
+  display:inline-block;
+  background-color: #fff;
+  padding:1em;
+}
+
+/*********PHOTOGRAPHY*********/
+
+.portfolio-bodyimages {
+		
+		height: 350px;
+		width: 380px;
+		padding: 20px;
+		position: relative;
+		
+	}
+/*.caption {
+	width:87.3%;
+	bottom: 2rem;
+	position: absolute;
+	background-color: #000000;
+	color:  #ffffff;
+	text-align: center;
+	padding-top: 2px;
+	margin-left:5.2%;*/
+}
+
+figure img {
+	width:100%;
+}
+
+
+
+.hover figure {
+  background: white;
+}
+.hover figure img {
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.hover figure:hover img {
+  opacity: .3;
+}
+
+
+.caption1{
+  opacity:0;
+  color:black;
+  position: absolute;
+  width:100%;
+  height:100%;
+  top: 50%;
+  left: 50%;
+  /*transform: translate(-50%, -50%);*/
+}
+
+
+
+.hover figure .caption1:hover{
+  opacity: 1;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+/*.words {
+	position: absolute;
+	margin-left:37%;
+	margin-bottom:20%;
+}*/
+
+
+
+
+
+
+/*********About me parapgrah*****/
+.p1 {
+	size
+
+}
+
+
+
+
+#profile-pic {
+	width: 100%;
+	padding-top: 2em;
+}
+
+body {
+	color:black;
+}
+
+
+
+/*******contact-me***/
+.contact-me{
+	height:350px;
+}
+/*.contactpicture {
+	width: 100%;
+	height: 250px;
+}*/
